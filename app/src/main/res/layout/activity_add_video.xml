@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:background="@drawable/img"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddVideo">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/videotittle"
+            android:layout_margin="@dimen/_10ssp"
+            android:hint="Enrter video title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <VideoView
+            android:id="@+id/viewvideo"
+            android:layout_marginLeft="@dimen/_10ssp"
+            android:layout_marginRight="@dimen/_10ssp"
+            android:layout_marginBottom="@dimen/_10ssp"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"/>
+
+        <Button
+            android:layout_marginLeft="@dimen/_20ssp"
+            android:layout_marginRight="@dimen/_20ssp"
+            android:id="@+id/uploadvideo"
+            android:text="Upload Video"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:background="@color/lightgreen2"
+        android:id="@+id/pickvideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="@dimen/_15ssp"
+        android:layout_marginRight="@dimen/_10ssp"
+        android:src="@drawable/ic_baseline_video_library_24" />
+
+
+</FrameLayout>

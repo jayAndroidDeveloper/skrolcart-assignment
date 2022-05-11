@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "320681414511",
+    "project_id": "testapp-koltin-29555",
+    "storage_bucket": "testapp-koltin-29555.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:320681414511:android:477bcd99dc34408d58629a",
+        "android_client_info": {
+          "package_name": "com.example.testapp_koltin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "320681414511-0ta9mjvh9h6jr3n2fm3m3f7c9l93f5t4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGmwsFBG6zGmhaMlwvSwTVUpESHu7oSWw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "320681414511-0ta9mjvh9h6jr3n2fm3m3f7c9l93f5t4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
